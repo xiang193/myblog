@@ -1,1 +1,6 @@
-baseurl: /myblog
+baseurl: /myblog/
+gems:
+- jekyll-mentions
+- jemoji
+- jekyll-redirect-from
+- jekyll-sitemap
