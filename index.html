@@ -18,7 +18,7 @@
         <header class="inner">
           <a id="forkme_banner" href="https://github.com/xiang193/myblog">View on GitHub</a>
 
-          <h1 id="project_title">祥子</h1>
+          <h1 id="project_title">xiang</h1>
           <h2 id="project_tagline">on the way</h2>
             <!--
             <section id="downloads">
@@ -32,18 +32,18 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
         <h2>{{ page.title }}</h2>
-        <p>最新文章</p>
+        <p>for new</p>
         <ul>
             {% for post in site.posts %}
             <li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-            {% endfo %}
+            {% endfor %}
         </ul>
     </div>
 
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        <p class="copyright">祥子 maintained by <a href="https://github.com/xiang193">xiang193</a></p>
+        <p class="copyright">xiang maintained by <a href="https://github.com/xiang193">xiang193</a></p>
         <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
